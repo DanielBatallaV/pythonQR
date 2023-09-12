@@ -1,12 +1,10 @@
 import qrcode
 
 # Enlace del archivo PDF que obtuviste de Google Drive carpeta
-url_1 = "https://drive.google.com/drive/folders/1NFzirJinjdW83Wl36llKHH-K-2l2FsGX?usp=sharing"
-url_2 = "https://drive.google.com/file/d/1lyRaviLzbtHpVjeC_LcSOcKzSi9GFa5o/view?usp=sharing"
+url_1 = "https://drive.google.com/file/d/1OXFm-_C8kP6_VdWOJtkDPwkbYPZW4ev4/view?usp=sharing"
 
 urls = [
-    { 'name': 'opciones_sazon', 'link': url_1  },
-    { 'name': 'menu_sazon', 'link': url_2  }
+    { 'name': 'QRSazon', 'link': url_1  }
     ]
 
 for url_item in urls:
